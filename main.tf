@@ -1,7 +1,7 @@
 provider "aws" {
         region = "${var.region}"
-        access_key = "AKIAI5R3O3V54XLW6BFA"
-        secret_key = "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"
+        access_key = "********************"
+        secret_key = "***********************"
 }
 resource "aws_volume_attachment" "nfs-volume" {
         device_name = "/dev/sdh"
